@@ -11,17 +11,24 @@
 <body>
     <form onsubmit="return input()">
 
-        <p> Enter Your 1st Number: <input type="number" id="userNum1"><br></p>
+        <p> Enter Your 1st Number: <input type="number" id="userNum1" min="0001" max="9999" required><br></p>
 
         <p id="comp1">Computer 1st Number:</p>
 
-        <p> Enter Your 2nd Number: <input type="number" id="userNum2"></p>
+        <p> Enter Your 2nd Number: <input type="number" id="userNum2" min="0001" max="9999" required></p>
 
         <p id="comp2">Computer 2nd Number:</p>
 
+        <button type="submit">Calculate</button>
+        <hr>
+
         <p id="result">Result:</p>
 
-        <button type="submit">Calculate</button>
+
+
+
+        
+        
     </form>
 
 </body>
